@@ -1,0 +1,857 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="eaa79102-67c6-44b9-b005-b7b04dd35573" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/NLP$indic_normalize.coverage" NAME="indic_normalize Coverage Results" MODIFIED="1509682480544" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/indicnlp/normalize" />
+    <SUITE FILE_PATH="coverage/NLP$unicode_transliterate.coverage" NAME="unicode_transliterate Coverage Results" MODIFIED="1509697348357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/inlp/transliterate" />
+    <SUITE FILE_PATH="coverage/NLP$Doctests_in_itrans_transliterator.coverage" NAME="Doctests in itrans_transliterator Coverage Results" MODIFIED="1509696725949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/inlp/transliterate" />
+    <SUITE FILE_PATH="coverage/NLP$language_info.coverage" NAME="language_info Coverage Results" MODIFIED="1509697323790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/inlp" />
+    <SUITE FILE_PATH="coverage/NLP$sinhala_transliterator.coverage" NAME="sinhala_transliterator Coverage Results" MODIFIED="1509696722145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/inlp/transliterate" />
+    <SUITE FILE_PATH="coverage/NLP$english_script.coverage" NAME="english_script Coverage Results" MODIFIED="1509697427057" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/inlp/script" />
+    <SUITE FILE_PATH="coverage/NLP$indic_scripts.coverage" NAME="indic_scripts Coverage Results" MODIFIED="1509682453513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/indicnlp/script" />
+    <SUITE FILE_PATH="coverage/NLP$indic_tokenize.coverage" NAME="indic_tokenize Coverage Results" MODIFIED="1509682598678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/indicnlp/tokenize" />
+    <SUITE FILE_PATH="coverage/NLP$tokenize.coverage" NAME="tokenize Coverage Results" MODIFIED="1509697362197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/inlp/tokenize" />
+    <SUITE FILE_PATH="coverage/NLP$phonetic_sim.coverage" NAME="phonetic_sim Coverage Results" MODIFIED="1509697436663" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/inlp/script" />
+    <SUITE FILE_PATH="coverage/NLP$indian_language_scripts.coverage" NAME="indian_language_scripts Coverage Results" MODIFIED="1509697431523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/inlp/script" />
+    <SUITE FILE_PATH="coverage/NLP$__init____1_.coverage" NAME="__init__ (1) Coverage Results" MODIFIED="1509168375932" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/indicnlp/morph" />
+    <SUITE FILE_PATH="coverage/NLP$NLP.coverage" NAME="NLP Coverage Results" MODIFIED="1510552623023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/NLP$syllabifier.coverage" NAME="syllabifier Coverage Results" MODIFIED="1509697449886" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/inlp/syllable" />
+    <SUITE FILE_PATH="coverage/NLP$unsupervised_morph.coverage" NAME="unsupervised_morph Coverage Results" MODIFIED="1509682521651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/indicnlp/morph" />
+    <SUITE FILE_PATH="coverage/NLP$loader.coverage" NAME="loader Coverage Results" MODIFIED="1509681908662" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/indicnlp" />
+    <SUITE FILE_PATH="coverage/NLP$normalize.coverage" NAME="normalize Coverage Results" MODIFIED="1509697457148" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/inlp/normalize" />
+    <SUITE FILE_PATH="coverage/NLP$langinfo.coverage" NAME="langinfo Coverage Results" MODIFIED="1509682404723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/indicnlp" />
+    <SUITE FILE_PATH="coverage/NLP$common.coverage" NAME="common Coverage Results" MODIFIED="1509697313781" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/inlp" />
+    <SUITE FILE_PATH="coverage/NLP$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1509696707169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/inlp" />
+    <SUITE FILE_PATH="coverage/NLP$morph.coverage" NAME="morph Coverage Results" MODIFIED="1509697462752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/inlp/morph" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="normalize.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/inlp/normalize/normalize.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="198" column="17" lean-forward="false" selection-start-line="198" selection-start-column="17" selection-end-line="198" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sinhala_transliterator.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/inlp/transliterate/sinhala_transliterator.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1141">
+              <caret line="86" column="29" lean-forward="true" selection-start-line="86" selection-start-column="29" selection-end-line="86" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="itrans_transliterator.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/inlp/transliterate/itrans_transliterator.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15834">
+              <caret line="756" column="15" lean-forward="true" selection-start-line="756" selection-start-column="15" selection-end-line="756" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="morph.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/inlp/morph/morph.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="16" column="6" lean-forward="false" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+              <folding>
+                <element signature="e#0#30#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test.ipynb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Test.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="common.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/inlp/common.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="15" column="8" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="language_info.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/inlp/language_info.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="567">
+              <caret line="27" column="17" lean-forward="false" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+              <folding>
+                <marker date="1510552189903" expanded="true" signature="27:46" ph="..." />
+                <marker date="1510552189903" expanded="true" signature="1044:1150" ph="..." />
+                <marker date="1510552189903" expanded="true" signature="1050:1109" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+                <marker date="1510552189903" expanded="true" signature="1179:1288" ph="..." />
+                <marker date="1510552189903" expanded="true" signature="1185:1244" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+                <marker date="1510552189903" expanded="true" signature="1325:1494" ph="..." />
+                <marker date="1510552189903" expanded="true" signature="1331:1390" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+                <marker date="1510552189903" expanded="true" signature="1534:1695" ph="..." />
+                <marker date="1510552189903" expanded="true" signature="1540:1599" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+                <marker date="1510552189903" expanded="true" signature="1718:1822" ph="..." />
+                <marker date="1510552189903" expanded="true" signature="1724:1764" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+                <marker date="1510552189903" expanded="true" signature="1851:1970" ph="..." />
+                <marker date="1510552189903" expanded="true" signature="1857:1912" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+                <marker date="1510552189903" expanded="true" signature="1996:2112" ph="..." />
+                <marker date="1510552189903" expanded="true" signature="2002:2056" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+                <marker date="1510552189903" expanded="true" signature="2136:2250" ph="..." />
+                <marker date="1510552189903" expanded="true" signature="2142:2196" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+                <marker date="1510552189903" expanded="true" signature="2272:2385" ph="..." />
+                <marker date="1510552189903" expanded="true" signature="2278:2333" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+                <marker date="1510552189903" expanded="true" signature="2412:2520" ph="..." />
+                <marker date="1510552189903" expanded="true" signature="2418:2462" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+                <marker date="1510552189903" expanded="true" signature="2544:2668" ph="..." />
+                <marker date="1510552189903" expanded="true" signature="2550:2590" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+                <marker date="1510552189903" expanded="true" signature="2694:2824" ph="..." />
+                <marker date="1510552189903" expanded="true" signature="2700:2742" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+                <marker date="1510552189903" expanded="true" signature="2852:2988" ph="..." />
+                <marker date="1510552189903" expanded="true" signature="2858:2902" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+                <marker date="1510552189903" expanded="true" signature="3013:3140" ph="..." />
+                <marker date="1510552189903" expanded="true" signature="3019:3060" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+                <marker date="1510552189903" expanded="true" signature="3165:3292" ph="..." />
+                <marker date="1510552189903" expanded="true" signature="3171:3212" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+                <marker date="1510552189903" expanded="true" signature="3317:3427" ph="..." />
+                <marker date="1510552189903" expanded="true" signature="3323:3374" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+                <marker date="1510552189903" expanded="true" signature="3453:3567" ph="..." />
+                <marker date="1510552189903" expanded="true" signature="3459:3512" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+                <marker date="1510552189903" expanded="true" signature="3594:3710" ph="..." />
+                <marker date="1510552189903" expanded="true" signature="3600:3654" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+                <marker date="1510552189903" expanded="true" signature="3739:3859" ph="..." />
+                <marker date="1510552189903" expanded="true" signature="3745:3801" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+                <marker date="1510552189903" expanded="true" signature="3882:3990" ph="..." />
+                <marker date="1510552189903" expanded="true" signature="3888:3938" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+                <marker date="1510552189903" expanded="true" signature="4017:4133" ph="..." />
+                <marker date="1510552189903" expanded="true" signature="4023:4077" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+                <marker date="1510552189903" expanded="true" signature="4162:4283" ph="..." />
+                <marker date="1510552189903" expanded="true" signature="4168:4225" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+                <marker date="1510552189903" expanded="true" signature="4307:4412" ph="..." />
+                <marker date="1510552189903" expanded="true" signature="4313:4354" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tokenize.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/inlp/tokenize/tokenize.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <folding>
+                <marker date="1510552226479" expanded="true" signature="300:438" ph="..." />
+                <marker date="1510552226479" expanded="true" signature="467:883" ph="..." />
+                <marker date="1510552226479" expanded="true" signature="493:585" ph="..." />
+                <marker date="1510552226479" expanded="true" signature="643:883" ph="..." />
+                <marker date="1510552226479" expanded="true" signature="705:883" ph="..." />
+                <marker date="1510552226479" expanded="true" signature="748:883" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="syllabifier.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/inlp/syllable/syllabifier.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="17" column="28" lean-forward="false" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="english_script.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/inlp/script/english_script.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="4" column="5" lean-forward="false" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>indicnlp</find>
+      <find>langinfo</find>
+      <find>indianlang</find>
+      <find>indic</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>INLP</replace>
+      <replace>inlp</replace>
+      <replace>IndianLanguage</replace>
+      <replace>indianlanguage</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/indicnlp/loader.py" />
+        <option value="$PROJECT_DIR$/src/indicnlp/common.py" />
+        <option value="$PROJECT_DIR$/src/indicnlp/normalize/indic_normalize.py" />
+        <option value="$PROJECT_DIR$/src/indicnlp/script/phonetic_sim.py" />
+        <option value="$PROJECT_DIR$/src/indicnlp/morph/unsupervised_morph.py" />
+        <option value="$PROJECT_DIR$/src/indicnlp/script/english_script.py" />
+        <option value="$PROJECT_DIR$/src/indicnlp/script/indic_scripts.py" />
+        <option value="$PROJECT_DIR$/src/indicnlp/syllable/syllabifier.py" />
+        <option value="$PROJECT_DIR$/src/indicnlp/tokenize/indic_tokenize.py" />
+        <option value="$PROJECT_DIR$/src/indicnlp/transliterate/itrans_transliterator.py" />
+        <option value="$PROJECT_DIR$/src/indicnlp/transliterate/sinhala_transliterator.py" />
+        <option value="$PROJECT_DIR$/src/indicnlp/transliterate/unicode_transliterate.py" />
+        <option value="$PROJECT_DIR$/indic_nlp_examples.ipynb" />
+        <option value="$PROJECT_DIR$/src/inlp/morph/unsupervised_morph.py" />
+        <option value="$PROJECT_DIR$/src/inlp/common.py" />
+        <option value="$PROJECT_DIR$/test_data/transliterate.ipynb" />
+        <option value="$PROJECT_DIR$/src/inlp/tokenize/tokenize.py" />
+        <option value="$PROJECT_DIR$/src/inlp/morph/morph.py" />
+        <option value="$PROJECT_DIR$/src/inlp/transliterate/unicode_transliterate.py" />
+        <option value="$PROJECT_DIR$/src/inlp/syllable/syllabifier.py" />
+        <option value="$PROJECT_DIR$/src/inlp/script/indian_language_scripts.py" />
+        <option value="$PROJECT_DIR$/src/inlp/script/english_script.py" />
+        <option value="$PROJECT_DIR$/src/inlp/script/phonetic_sim.py" />
+        <option value="$PROJECT_DIR$/Test.ipynb" />
+        <option value="$PROJECT_DIR$/src/inlp/normalize/normalize.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="NLP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NLP" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NLP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NLP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NLP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NLP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="inlp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NLP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NLP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="inlp" type="462c0819:PsiDirectoryNode" />
+              <item name="morph" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NLP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NLP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="inlp" type="462c0819:PsiDirectoryNode" />
+              <item name="normalize" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NLP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NLP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="inlp" type="462c0819:PsiDirectoryNode" />
+              <item name="script" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NLP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NLP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="inlp" type="462c0819:PsiDirectoryNode" />
+              <item name="syllable" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NLP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NLP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="inlp" type="462c0819:PsiDirectoryNode" />
+              <item name="tokenize" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NLP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NLP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="inlp" type="462c0819:PsiDirectoryNode" />
+              <item name="transliterate" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.morph">
+    <configuration name="NLP" type="Python.Ipnb" factoryName="Jupyter Notebook">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="NLP" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="additionalOptions" value="" />
+      <option name="ipnbHost" value="127.0.0.1" />
+      <option name="ipnbPort" value="8888" />
+    </configuration>
+    <configuration name="indian_language_scripts" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/inlp/script" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="NLP" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/inlp/script/indian_language_scripts.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="morph" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/inlp/morph" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="NLP" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/inlp/morph/morph.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="normalize" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/inlp/normalize" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="NLP" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/inlp/normalize/normalize.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="phonetic_sim" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/inlp/script" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="NLP" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/inlp/script/phonetic_sim.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="syllabifier" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/inlp/syllable" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="NLP" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/inlp/syllable/syllabifier.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <list size="6">
+      <item index="0" class="java.lang.String" itemvalue="Jupyter Notebook.NLP" />
+      <item index="1" class="java.lang.String" itemvalue="Python.syllabifier" />
+      <item index="2" class="java.lang.String" itemvalue="Python.indian_language_scripts" />
+      <item index="3" class="java.lang.String" itemvalue="Python.phonetic_sim" />
+      <item index="4" class="java.lang.String" itemvalue="Python.normalize" />
+      <item index="5" class="java.lang.String" itemvalue="Python.morph" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.morph" />
+        <item index="1" class="java.lang.String" itemvalue="Python.normalize" />
+        <item index="2" class="java.lang.String" itemvalue="Python.syllabifier" />
+        <item index="3" class="java.lang.String" itemvalue="Python.phonetic_sim" />
+        <item index="4" class="java.lang.String" itemvalue="Python.indian_language_scripts" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eaa79102-67c6-44b9-b005-b7b04dd35573" name="Default" comment="" />
+      <created>1509167526775</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1509167526775</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Doctests_in_itrans_transliterator - 2017.11.03 at 09h 48m 08s.xml">
+      <configuration name="Doctests in itrans_transliterator" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Doctests_in_itrans_transliterator - 2017.11.03 at 09h 48m 30s.xml">
+      <configuration name="Doctests in itrans_transliterator" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Doctests_in_itrans_transliterator - 2017.11.03 at 13h 42m 06s.xml">
+      <configuration name="Doctests in itrans_transliterator" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="1938" height="1060" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921347" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921347" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921347" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921347" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27658433" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921347" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/inlp/transliterate/sinhala_transliterator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/inlp/script/indian_language_scripts.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="9" column="23" lean-forward="false" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#19#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/inlp/script/english_script.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/inlp/script/phonetic_sim.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/inlp/syllable/syllabifier.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="21" lean-forward="false" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/inlp/tokenize/tokenize.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+          <folding>
+            <marker date="1510552226479" expanded="true" signature="300:438" ph="..." />
+            <marker date="1510552226479" expanded="true" signature="467:883" ph="..." />
+            <marker date="1510552226479" expanded="true" signature="493:585" ph="..." />
+            <marker date="1510552226479" expanded="true" signature="643:883" ph="..." />
+            <marker date="1510552226479" expanded="true" signature="705:883" ph="..." />
+            <marker date="1510552226479" expanded="true" signature="748:883" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/inlp/transliterate/unicode_transliterate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="882">
+          <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/indicnlp/common.py" />
+    <entry file="file://$PROJECT_DIR$/src/indicnlp/transliterate/itrans_transliterator.py" />
+    <entry file="file://$PROJECT_DIR$/indic_nlp_examples.ipynb" />
+    <entry file="file://$PROJECT_DIR$/src/indicnlp/loader.py" />
+    <entry file="file://$PROJECT_DIR$/src/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/indicnlp/morph/unsupervised_morph.py" />
+    <entry file="file://$PROJECT_DIR$/src/indicnlp/langinfo.py" />
+    <entry file="file://$PROJECT_DIR$/src/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="34" column="31" lean-forward="true" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/pandas/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/pandas/core/config_init.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/pandas/core/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="41" lean-forward="false" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/indicnlp/common.py" />
+    <entry file="file://$PROJECT_DIR$/src/indicnlp/langinfo.py" />
+    <entry file="file://$PROJECT_DIR$/src/indicnlp/normalize/indic_normalize.py" />
+    <entry file="file://$PROJECT_DIR$/src/indicnlp/script/english_script.py" />
+    <entry file="file://$PROJECT_DIR$/src/indicnlp/script/indic_scripts.py" />
+    <entry file="file://$PROJECT_DIR$/src/indicnlp/syllable/syllabifier.py" />
+    <entry file="file://$PROJECT_DIR$/src/indicnlp/tokenize/indic_tokenize.py" />
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pycharm/docrunner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="139" column="0" lean-forward="false" selection-start-line="139" selection-start-column="0" selection-end-line="139" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/indicnlp/transliterate/sinhala_transliterator.py" />
+    <entry file="file://$PROJECT_DIR$/src/indicnlp/transliterate/unicode_transliterate.py" />
+    <entry file="file://$PROJECT_DIR$/indic_nlp_examples.ipynb" />
+    <entry file="file://$PROJECT_DIR$/src/indicnlp/loader.py" />
+    <entry file="file://$PROJECT_DIR$/src/indicnlp/transliterate/itrans_transliterator.py" />
+    <entry file="file://$PROJECT_DIR$/src/indicnlp/script/phonetic_sim.py" />
+    <entry file="file://$PROJECT_DIR$/src/indicnlp/morph/unsupervised_morph.py" />
+    <entry file="file://$PROJECT_DIR$/src/inlp/morph/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/inlp/loader.py" />
+    <entry file="file://$PROJECT_DIR$/test_data/transliterate.ipynb" />
+    <entry file="file://$PROJECT_DIR$/src/inlp/script/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/inlp/transliterate/unicode_transliterate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="9" lean-forward="false" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/inlp/script/indian_language_scripts.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="15" lean-forward="false" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#19#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/inlp/script/phonetic_sim.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/inlp/common.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="8" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/inlp/language_info.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="27" column="17" lean-forward="false" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+          <folding>
+            <marker date="1510552189903" expanded="true" signature="27:46" ph="..." />
+            <marker date="1510552189903" expanded="true" signature="1044:1150" ph="..." />
+            <marker date="1510552189903" expanded="true" signature="1050:1109" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            <marker date="1510552189903" expanded="true" signature="1179:1288" ph="..." />
+            <marker date="1510552189903" expanded="true" signature="1185:1244" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            <marker date="1510552189903" expanded="true" signature="1325:1494" ph="..." />
+            <marker date="1510552189903" expanded="true" signature="1331:1390" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            <marker date="1510552189903" expanded="true" signature="1534:1695" ph="..." />
+            <marker date="1510552189903" expanded="true" signature="1540:1599" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            <marker date="1510552189903" expanded="true" signature="1718:1822" ph="..." />
+            <marker date="1510552189903" expanded="true" signature="1724:1764" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            <marker date="1510552189903" expanded="true" signature="1851:1970" ph="..." />
+            <marker date="1510552189903" expanded="true" signature="1857:1912" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            <marker date="1510552189903" expanded="true" signature="1996:2112" ph="..." />
+            <marker date="1510552189903" expanded="true" signature="2002:2056" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            <marker date="1510552189903" expanded="true" signature="2136:2250" ph="..." />
+            <marker date="1510552189903" expanded="true" signature="2142:2196" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            <marker date="1510552189903" expanded="true" signature="2272:2385" ph="..." />
+            <marker date="1510552189903" expanded="true" signature="2278:2333" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            <marker date="1510552189903" expanded="true" signature="2412:2520" ph="..." />
+            <marker date="1510552189903" expanded="true" signature="2418:2462" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            <marker date="1510552189903" expanded="true" signature="2544:2668" ph="..." />
+            <marker date="1510552189903" expanded="true" signature="2550:2590" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            <marker date="1510552189903" expanded="true" signature="2694:2824" ph="..." />
+            <marker date="1510552189903" expanded="true" signature="2700:2742" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            <marker date="1510552189903" expanded="true" signature="2852:2988" ph="..." />
+            <marker date="1510552189903" expanded="true" signature="2858:2902" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            <marker date="1510552189903" expanded="true" signature="3013:3140" ph="..." />
+            <marker date="1510552189903" expanded="true" signature="3019:3060" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            <marker date="1510552189903" expanded="true" signature="3165:3292" ph="..." />
+            <marker date="1510552189903" expanded="true" signature="3171:3212" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            <marker date="1510552189903" expanded="true" signature="3317:3427" ph="..." />
+            <marker date="1510552189903" expanded="true" signature="3323:3374" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            <marker date="1510552189903" expanded="true" signature="3453:3567" ph="..." />
+            <marker date="1510552189903" expanded="true" signature="3459:3512" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            <marker date="1510552189903" expanded="true" signature="3594:3710" ph="..." />
+            <marker date="1510552189903" expanded="true" signature="3600:3654" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            <marker date="1510552189903" expanded="true" signature="3739:3859" ph="..." />
+            <marker date="1510552189903" expanded="true" signature="3745:3801" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            <marker date="1510552189903" expanded="true" signature="3882:3990" ph="..." />
+            <marker date="1510552189903" expanded="true" signature="3888:3938" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            <marker date="1510552189903" expanded="true" signature="4017:4133" ph="..." />
+            <marker date="1510552189903" expanded="true" signature="4023:4077" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            <marker date="1510552189903" expanded="true" signature="4162:4283" ph="..." />
+            <marker date="1510552189903" expanded="true" signature="4168:4225" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            <marker date="1510552189903" expanded="true" signature="4307:4412" ph="..." />
+            <marker date="1510552189903" expanded="true" signature="4313:4354" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/inlp/tokenize/tokenize.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <marker date="1510552226479" expanded="true" signature="300:438" ph="..." />
+            <marker date="1510552226479" expanded="true" signature="467:883" ph="..." />
+            <marker date="1510552226479" expanded="true" signature="493:585" ph="..." />
+            <marker date="1510552226479" expanded="true" signature="643:883" ph="..." />
+            <marker date="1510552226479" expanded="true" signature="705:883" ph="..." />
+            <marker date="1510552226479" expanded="true" signature="748:883" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/inlp/script/english_script.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="5" lean-forward="false" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/inlp/syllable/syllabifier.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="28" lean-forward="false" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/inlp/normalize/normalize.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="198" column="17" lean-forward="false" selection-start-line="198" selection-start-column="17" selection-end-line="198" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/inlp/transliterate/sinhala_transliterator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1141">
+          <caret line="86" column="29" lean-forward="true" selection-start-line="86" selection-start-column="29" selection-end-line="86" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/inlp/transliterate/itrans_transliterator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15834">
+          <caret line="756" column="15" lean-forward="true" selection-start-line="756" selection-start-column="15" selection-end-line="756" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/inlp/morph/morph.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="16" column="6" lean-forward="false" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
